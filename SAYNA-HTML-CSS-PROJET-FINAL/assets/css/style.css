@@ -1,0 +1,101 @@
+/* menu Mobile 
+
+#menu-mobile {
+    display: none;
+}
+
+section img {
+    width: 100%;
+}
+
+@media only screen and(max-width: 505px) {
+    #menu-mobile {
+        display: block;
+    }
+    #menu-web {
+        display: none;
+    }
+}
+*/
+
+
+/*Belle Couleur utiliser sur le site*/
+
+ :root {
+    --primary-color: #d35649;
+    --primary-gray: #98a5a5;
+    --primary-blue: #509bd7;
+    --gray-footer: #1f1f1f;
+    --gray-footer-btn: #444;
+    --primary-purple: #575a89;
+    --light-gray: #eee;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: var(--light-gray);
+    overflow: hidden;
+    height: 15vh;
+    padding: 2%;
+    background-color: var(--primary-color);
+    font-size: xx-large;
+}
+
+header .col a {
+    color: var(--light-gray);
+    text-decoration: none;
+}
+
+header .Navigation h4 {
+    text-align: justify;
+    font-size: large;
+    padding: 5%;
+}
+
+
+/* Footer */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: var(--gray-footer);
+}
+
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-col {
+    color: var(--light-gray);
+    width: 50%;
+    padding: 10px 25px;
+    display: block;
+}
+
+footer .Social-col {
+    width: 100%;
+    background-color: var(--gray-footer-btn);
+    padding: 15px 0;
+    margin: 0;
+}
+
+.Social-col>col>img {
+    margin: 0 1em;
+    padding: 0 5px;
+    justify-content: left;
+}
